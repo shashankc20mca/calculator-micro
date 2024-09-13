@@ -23,6 +23,8 @@ r.removeAttribute("id");
 }
 let restvalue=()=>{
   r.value="0";
+d=1;
+
   baval="";
   r.removeAttribute("id");
 }
