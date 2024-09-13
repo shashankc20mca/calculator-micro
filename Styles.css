@@ -37,6 +37,10 @@ justify-content: space-evenly;
   border:none;
   outline: none;
   text-align: right;
+font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+
+
  
 }
 .calc_buttons{
