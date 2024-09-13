@@ -23,6 +23,8 @@ r.removeAttribute("id");
 }
 let restvalue=()=>{
   r.value="0";
+
+
 d=1;
 
   baval="";
@@ -50,6 +52,8 @@ let res=()=>{
     rs = Math.floor(rs* 1000) / 1000;
   }
   r.value=rs;
+  baval=`${rs}`;
+
   r.setAttribute("id","spclass")
 
 }
