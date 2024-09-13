@@ -18,7 +18,7 @@ let disp=(val)=>{
 }
 let delonevalue=()=>{
 r.value=(r.value).slice(0,-1);
-baval.slice(0,-1);
+baval=baval.slice(0,-1);
 r.removeAttribute("id");
 }
 let restvalue=()=>{
