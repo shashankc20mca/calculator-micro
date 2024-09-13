@@ -26,7 +26,7 @@ let restvalue=()=>{
 d=1;
 
   baval="";
-  r.removeAttribute("id");
+ /* r.removeAttribute("id");*/
 }
 
 let res=()=>{
