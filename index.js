@@ -32,7 +32,7 @@ d=1;
 }
 
 let res=()=>{
-  if(baval[0]=="." || baval[0]=="/"|| baval[0]=="*" || baval[0]=="+"){
+  if(baval[0]=="." || baval[0]=="/"|| baval[0]=="*"){
     d=1;
     r.setAttribute("id","spclass");
     return r.value="error";
