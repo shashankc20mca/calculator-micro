@@ -46,7 +46,7 @@ font-family: "Segoe UI", Arial, sans-serif;
  
 }
 .calc_buttons{
-  
+  box-sizing:border-box;
   height: 70%;
   width: 100%;
   border-radius: 0.5rem;
@@ -54,7 +54,7 @@ font-family: "Segoe UI", Arial, sans-serif;
   display: grid;
   grid-template-rows: repeat(5,1fr);
   grid-template-columns: repeat(4,1fr);
-  
+   padding:1.3rem;
   
 }
 .calc_buttons .btn{
